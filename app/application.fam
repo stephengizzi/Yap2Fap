@@ -1,0 +1,10 @@
+App(
+    appid="dice_roller",
+    name="Dice Roller",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="dice_roller_app",
+    stack_size=4 * 1024,
+    fap_category="Games",
+    fap_version="1.0",
+    fap_description="Roll a six-sided die with vibration feedback.",
+)
