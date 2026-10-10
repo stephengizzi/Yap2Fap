@@ -1,0 +1,10 @@
+App(
+    appid="multi_band_rx",
+    name="UK Multi RX",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="multi_band_rx_app",
+    stack_size=4 * 1024,
+    fap_category="Sub-GHz",
+    fap_version="1.0",
+    fap_description="UK candidate-frequency OOK scanner with activity alerts and RAW recording",
+)
